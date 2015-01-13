@@ -1,0 +1,33 @@
+a.table:link {color:#333333; text-decoration:none;}
+a.table:visited {color:#333333;}
+a.table:active {color:#333333;}
+
+#rounded-corner
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+#rounded-corner th
+{
+	padding: 8px;
+	font-weight: normal;
+	font-size: 13px;
+	color: #039;
+	background: #b9c9fe;
+}
+#rounded-corner td
+{
+	padding: 8px;
+	background: #e8edff;
+	border-top: 1px solid #fff;
+	color: #669;
+}
+
+#rounded-corner tbody tr:hover td
+{
+	background: #d0dafd;
+}
