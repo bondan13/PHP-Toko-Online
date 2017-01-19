@@ -1,0 +1,9 @@
+RewriteEngine on
+RewriteBase /design/
+RewriteRule ([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)-([0-9]+)\.html$ produk.php?idb=$3&reff=$1 [L]
+RewriteRule ([a-zA-Z0-9_-]+)-([0-9]+)\.html-halaman([0-9]+)$ produk.php?idb=$2&h=$3 [L]
+RewriteRule ([a-zA-Z0-9_-]+)-([0-9]+)\.html$ produk.php?idb=$2 [L]
+
+
+
+
